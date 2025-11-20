@@ -4,8 +4,7 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Mail, Linkedin, Phone, ExternalLink, ArrowRight, Code2, Zap, Cloud } from 'lucide-react'
-import Link from 'next/link'
+import { Mail, Linkedin, Phone, ArrowRight, Code2, Zap, Cloud } from 'lucide-react'
 
 export default function Home() {
   // Smooth scroll to section
@@ -232,9 +231,9 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Let's Connect</h2>
+          <h2 className="text-4xl font-bold mb-6">Let&apos;s Connect</h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-            I'm always interested in hearing about new projects and opportunities. Feel free to reach out!
+            I&apos;m always interested in hearing about new projects and opportunities. Feel free to reach out!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
